@@ -1,0 +1,16 @@
+{
+    "Hallo": "World",
+    "Du": {
+        "Bist": 2.2,
+        "Gro": "SS"
+    },
+    "Alter": 2,
+    "Alter2": 2.2,
+    "Test": true,
+    "Array": [1,2,3],
+    "Array2": [{
+        "a": "a"
+    },{
+        "a": "b"
+    }]
+}

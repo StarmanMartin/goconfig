@@ -1,0 +1,13 @@
+{
+    "Hallo": "My World",
+    "Du": {
+        "Bist": 2.3
+    },
+    "Alter3": 3,
+    "Array": [3,4,5],
+    "Array2": [{
+        "a": "a"
+    },{
+        "a": "c"
+    }]
+}
