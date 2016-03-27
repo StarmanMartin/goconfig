@@ -59,14 +59,6 @@ func GetInt(keyWords ...string) (int, bool) {
 	return c.getInt(keyWords...)
 }
 
-func GetSubConfig(keyWords ...string) (*config, bool) {
-	if c == nil {
-		return nil, false
-	}
-
-	return c.getSubConfig(keyWords...)
-}
-
 func GetBool(keyWords ...string) (bool, bool) {
 	if c == nil {
 		return false, false
@@ -97,14 +89,6 @@ func GetArrayInt(keyWords ...string) ([]int, bool) {
 	}
 
 	return c.getArrayInt(keyWords...)
-}
-
-func GetArraySubConfig(keyWords ...string) ([]*config, bool) {
-	if c == nil {
-		return nil, false
-	}
-
-	return c.getArraySubConfig(keyWords...)
 }
 
 func GetArrayBool(keyWords ...string) ([]bool, bool) {

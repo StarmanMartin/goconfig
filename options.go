@@ -149,7 +149,7 @@ func (c *config) getIndexAndConfig(keyWords []string) (*config, key, bool) {
 func (c *config) get(keyWords ...string) (interface{}, bool) {
 	temp, tempKey, ok := c.getIndexAndConfig(keyWords)
 
-	if !ok {
+	if !ok || tempKey.dataType == configType{
 		return nil, false
 	}
 
